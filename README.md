@@ -2,6 +2,8 @@
 
 An experiment applying a **Fractional Fourier Transform (FrFT)-based loss function** to fine-tune ResNet-18, comparing it against standard Cross-Entropy loss on the Hymenoptera (ants vs. bees) binary classification task.
 
+![이미지 예시](https://github.com/bemoregt/Training_Resnet_Using_FrFTLossFunction/blob/main/frft_vs_standard_accuracy.png)
+
 ## Overview
 
 This project introduces `FrFTLoss`, a novel composite loss function that augments standard Cross-Entropy loss with additional supervision signal derived from the Fractional Fourier Transform domain. The hypothesis is that penalizing classification errors across multiple fractional frequency domains can improve model generalization.
